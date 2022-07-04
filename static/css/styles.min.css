@@ -266,16 +266,22 @@ textarea {
 
 .header__bookmark-icon {
 	display: inline-block;
-	vertical-align: middle
+	vertical-align: middle;
 }
 
 .header__bookmark-counter {
 	font-size: 18px;
 	font-weight: bold;
 	color: #000;
-	vertical-align: middle
+	vertical-align: middle;
 }
-
+.header__bookmark-search {
+    position: absolute;
+	right: 320px;
+	top: 34px;
+	text-decoration: none;
+	display: block
+}
 .item {
 	margin-bottom: 22px;
 	padding-bottom: 23px;
