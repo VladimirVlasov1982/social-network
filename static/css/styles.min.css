@@ -197,7 +197,7 @@ a {
 
 p {
 	margin: 0;
-	padding: 0
+	padding: 0;
 }
 
 img {
@@ -240,9 +240,8 @@ textarea {
 }
 
 .header__nosvg {
-
     color: #000;
-    font-size: 32px;
+    font-size: 20px;
     text-decoration: none;
     font-weight: bold;
 
