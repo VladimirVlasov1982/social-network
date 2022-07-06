@@ -92,14 +92,24 @@ class Bookmarks:
 
     def get_bookmarks(self):
         """Загрузка данных из закладок"""
-        with open(self.path, 'r', encoding='utf-8') as file:
-            bookmarks = json.load(file)
-            return bookmarks
+        try:
+            with open(self.path, 'r', encoding='utf-8') as file:
+                bookmarks = json.load(file)
+                return bookmarks
+        except FileNotFoundError:
+            return "Файл не найден"
+        except JSONDecodeError:
+            return "Файл не удается преобразовать"
 
     def save_bookmarks(self, bookmarks):
         # Сохраняем закладки
-        with open(self.path, "w", encoding="utf-8") as file:
-            json.dump(bookmarks, file, ensure_ascii=False, indent=4)
+        try:
+            with open(self.path, "w", encoding="utf-8") as file:
+                json.dump(bookmarks, file, ensure_ascii=False, indent=4)
+        except FileNotFoundError:
+            return "Файл не найден"
+        except JSONDecodeError:
+            return "Файл не удается преобразовать"
 
     def add_bookmarks(self, post):
         """Сохраняем пост в закладках"""
