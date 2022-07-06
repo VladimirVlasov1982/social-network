@@ -9,6 +9,7 @@ logging.basicConfig(filename='logs/api.log', format='%(asctime)s [%(levelname)s]
 app = Flask(__name__)
 
 app.config['JSON_AS_ASCII'] = False
+app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
 post_dao = Posts("data/data.json")
 comments_dao = Comments('data/comments.json')
 bookmarks_dao = Bookmarks('data/bookmarks.json')
