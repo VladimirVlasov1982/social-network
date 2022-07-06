@@ -8770,3 +8770,207 @@ werkzeug.routing.BuildError: Could not build url for endpoint 'add_bookmarks'. D
 2022-07-06 14:48:21,796 [INFO] 127.0.0.1 - - [06/Jul/2022 14:48:21] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
 2022-07-06 14:48:21,796 [INFO] 127.0.0.1 - - [06/Jul/2022 14:48:21] "[36mGET /static/img/search.png HTTP/1.1[0m" 304 -
 2022-07-06 14:48:21,799 [INFO] 127.0.0.1 - - [06/Jul/2022 14:48:21] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:30,160 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-07-06 15:46:31,154 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:31] "GET /seek HTTP/1.1" 200 -
+2022-07-06 15:46:31,237 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:31] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-07-06 15:46:31,300 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:31] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:31,300 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:31] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:34,650 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:34] "GET / HTTP/1.1" 200 -
+2022-07-06 15:46:34,670 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:34] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-07-06 15:46:34,702 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:34] "[36mGET /static/img/search.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:34,702 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:34] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:34,702 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:34] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:36,767 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:36] "GET /users/leo HTTP/1.1" 200 -
+2022-07-06 15:46:36,800 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:36] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-07-06 15:46:36,819 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:36] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:36,821 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:36] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:39,458 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:39] "GET / HTTP/1.1" 200 -
+2022-07-06 15:46:39,494 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:39] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-07-06 15:46:39,511 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:39] "[36mGET /static/img/search.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:39,513 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:39] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:39,514 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:39] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:40,244 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:40] "GET /posts/1 HTTP/1.1" 200 -
+2022-07-06 15:46:40,281 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:40] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-07-06 15:46:40,300 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:40] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:40,301 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:40] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:42,425 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:42] "GET /tag/еда HTTP/1.1" 200 -
+2022-07-06 15:46:42,458 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:42] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-07-06 15:46:42,478 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:42] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:42,482 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:42] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:44,849 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:44] "[32mGET /bookmarks/add/1?button= HTTP/1.1[0m" 302 -
+2022-07-06 15:46:44,863 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:44] "GET / HTTP/1.1" 200 -
+2022-07-06 15:46:44,902 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:44] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-07-06 15:46:44,920 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:44] "[36mGET /static/img/search.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:44,921 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:44] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:44,923 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:44] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:46,929 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:46] "GET /bookmarks HTTP/1.1" 200 -
+2022-07-06 15:46:46,963 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:46] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-07-06 15:46:46,981 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:46] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:46,982 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:46] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:49,122 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:49] "[32mGET /bookmarks/remove/1 HTTP/1.1[0m" 302 -
+2022-07-06 15:46:49,135 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:49] "GET / HTTP/1.1" 200 -
+2022-07-06 15:46:49,170 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:49] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-07-06 15:46:49,188 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:49] "[36mGET /static/img/search.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:49,189 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:49] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:49,191 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:49] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:53,815 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:53] "[32mGET /bookmarks/add/3?button= HTTP/1.1[0m" 302 -
+2022-07-06 15:46:53,826 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:53] "GET / HTTP/1.1" 200 -
+2022-07-06 15:46:53,859 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:53] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-07-06 15:46:53,878 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:53] "[36mGET /static/img/search.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:53,880 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:53] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:53,881 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:53] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:56,304 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:56] "GET /bookmarks HTTP/1.1" 200 -
+2022-07-06 15:46:56,337 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:56] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-07-06 15:46:56,355 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:56] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:56,356 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:56] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:57,140 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:57] "[32mGET /bookmarks/remove/5 HTTP/1.1[0m" 302 -
+2022-07-06 15:46:57,146 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:57] "GET / HTTP/1.1" 200 -
+2022-07-06 15:46:57,188 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:57] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-07-06 15:46:57,204 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:57] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:57,206 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:57] "[36mGET /static/img/search.png HTTP/1.1[0m" 304 -
+2022-07-06 15:46:57,208 [INFO] 127.0.0.1 - - [06/Jul/2022 15:46:57] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-07-06 15:49:15,070 [INFO] 127.0.0.1 - - [06/Jul/2022 15:49:15] "GET / HTTP/1.1" 200 -
+2022-07-06 15:49:15,103 [INFO] 127.0.0.1 - - [06/Jul/2022 15:49:15] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-07-06 15:49:15,107 [INFO] 127.0.0.1 - - [06/Jul/2022 15:49:15] "[36mGET /static/img/search.png HTTP/1.1[0m" 304 -
+2022-07-06 15:49:15,109 [INFO] 127.0.0.1 - - [06/Jul/2022 15:49:15] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-07-06 15:49:15,111 [INFO] 127.0.0.1 - - [06/Jul/2022 15:49:15] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-07-06 15:49:32,626 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Python_work\course_work_3\app.py", line 73, in page_api_posts
+    logging.info(f"Запрос {url_for('api_posts')}")
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\helpers.py", line 336, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\helpers.py", line 323, in url_for
+    rv = url_adapter.build(
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\werkzeug\routing.py", line 2305, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'api_posts'. Did you mean 'page_api_posts' instead?
+2022-07-06 15:49:32,626 [INFO] 127.0.0.1 - - [06/Jul/2022 15:49:32] "[35m[1mGET /api/posts HTTP/1.1[0m" 500 -
+2022-07-06 15:49:32,659 [INFO] 127.0.0.1 - - [06/Jul/2022 15:49:32] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-07-06 15:50:01,304 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Python_work\course_work_3\app.py", line 73, in page_api_posts
+    logging.info(f"Запрос {url_for('api_posts')}")
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\helpers.py", line 336, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\helpers.py", line 323, in url_for
+    rv = url_adapter.build(
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\werkzeug\routing.py", line 2305, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'api_posts'. Did you mean 'page_api_posts' instead?
+2022-07-06 15:50:01,306 [INFO] 127.0.0.1 - - [06/Jul/2022 15:50:01] "[35m[1mGET /api/posts HTTP/1.1[0m" 500 -
+2022-07-06 15:50:01,327 [INFO] 127.0.0.1 - - [06/Jul/2022 15:50:01] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-07-06 15:50:09,423 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Python_work\course_work_3\app.py", line 73, in page_api_posts
+    logging.info(f"Запрос {url_for('api_posts')}")
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\helpers.py", line 336, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\helpers.py", line 323, in url_for
+    rv = url_adapter.build(
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\werkzeug\routing.py", line 2305, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'api_posts'. Did you mean 'page_api_posts' instead?
+2022-07-06 15:50:09,425 [INFO] 127.0.0.1 - - [06/Jul/2022 15:50:09] "[35m[1mGET /api/posts HTTP/1.1[0m" 500 -
+2022-07-06 15:50:09,458 [INFO] 127.0.0.1 - - [06/Jul/2022 15:50:09] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-07-06 15:50:13,275 [ERROR] Exception on /api/posts/1 [GET]
+Traceback (most recent call last):
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Python_work\course_work_3\app.py", line 81, in page_api_post_by_id
+    logging.info(f"Запрос {url_for('api_post_by_id', post_id=post_id)}")
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\helpers.py", line 336, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\helpers.py", line 323, in url_for
+    rv = url_adapter.build(
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\werkzeug\routing.py", line 2305, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'api_post_by_id' with values ['post_id']. Did you mean 'page_api_post_by_id' instead?
+2022-07-06 15:50:13,276 [INFO] 127.0.0.1 - - [06/Jul/2022 15:50:13] "[35m[1mGET /api/posts/1 HTTP/1.1[0m" 500 -
+2022-07-06 15:50:13,299 [INFO] 127.0.0.1 - - [06/Jul/2022 15:50:13] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-07-06 15:50:54,885 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Python_work\course_work_3\app.py", line 73, in page_api_posts
+    logging.info(f"Запрос {url_for('api_posts')}")
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\helpers.py", line 336, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\helpers.py", line 323, in url_for
+    rv = url_adapter.build(
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\werkzeug\routing.py", line 2305, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'api_posts'. Did you mean 'page_api_posts' instead?
+2022-07-06 15:50:54,887 [INFO] 127.0.0.1 - - [06/Jul/2022 15:50:54] "[35m[1mGET /api/posts HTTP/1.1[0m" 500 -
+2022-07-06 15:50:54,909 [INFO] 127.0.0.1 - - [06/Jul/2022 15:50:54] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-07-06 15:50:59,101 [INFO] 127.0.0.1 - - [06/Jul/2022 15:50:59] "GET / HTTP/1.1" 200 -
+2022-07-06 15:50:59,140 [INFO] 127.0.0.1 - - [06/Jul/2022 15:50:59] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-07-06 15:50:59,157 [INFO] 127.0.0.1 - - [06/Jul/2022 15:50:59] "[36mGET /static/img/bookmark.png HTTP/1.1[0m" 304 -
+2022-07-06 15:50:59,158 [INFO] 127.0.0.1 - - [06/Jul/2022 15:50:59] "[36mGET /static/img/search.png HTTP/1.1[0m" 304 -
+2022-07-06 15:50:59,162 [INFO] 127.0.0.1 - - [06/Jul/2022 15:50:59] "[36mGET /static/img/eye.png HTTP/1.1[0m" 304 -
+2022-07-06 15:51:05,111 [ERROR] Exception on /api/posts [GET]
+Traceback (most recent call last):
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 2077, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 1525, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 1523, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\app.py", line 1509, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**req.view_args)
+  File "C:\Python_work\course_work_3\app.py", line 73, in page_api_posts
+    logging.info(f"Запрос {url_for('api_posts')}")
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\helpers.py", line 336, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\flask\helpers.py", line 323, in url_for
+    rv = url_adapter.build(
+  File "C:\Python_work\course_work_3\venv\lib\site-packages\werkzeug\routing.py", line 2305, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'api_posts'. Did you mean 'page_api_posts' instead?
+2022-07-06 15:51:05,112 [INFO] 127.0.0.1 - - [06/Jul/2022 15:51:05] "[35m[1mGET /api/posts HTTP/1.1[0m" 500 -
+2022-07-06 15:51:05,141 [INFO] 127.0.0.1 - - [06/Jul/2022 15:51:05] "[36mGET /static/css/styles.min.css HTTP/1.1[0m" 304 -
+2022-07-06 15:51:23,155 [INFO]  * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+2022-07-06 15:51:23,155 [INFO]  * Restarting with stat
+2022-07-06 15:51:23,698 [WARNING]  * Debugger is active!
+2022-07-06 15:51:23,698 [INFO]  * Debugger PIN: 580-258-224
+2022-07-06 15:51:24,837 [INFO] 127.0.0.1 - - [06/Jul/2022 15:51:24] "[35m[1mGET /api/posts HTTP/1.1[0m" 500 -
+2022-07-06 15:51:24,900 [INFO] 127.0.0.1 - - [06/Jul/2022 15:51:24] "GET /api/posts?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2022-07-06 15:51:24,916 [INFO] 127.0.0.1 - - [06/Jul/2022 15:51:24] "GET /api/posts?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2022-07-06 15:51:24,971 [INFO] 127.0.0.1 - - [06/Jul/2022 15:51:24] "GET /api/posts?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2022-07-06 15:51:25,063 [INFO] 127.0.0.1 - - [06/Jul/2022 15:51:25] "[36mGET /api/posts?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

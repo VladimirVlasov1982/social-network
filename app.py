@@ -70,7 +70,7 @@ def pageInternalServerError(error):
 @app.route('/api/posts')
 def page_api_posts():
     # Страница постов в виде JSON-списка.
-    logging.info(f"Запрос {url_for('api_posts')}")
+    logging.info(f"Запрос {url_for('page_api_posts')}")
     posts = post_dao.get_all_posts()
     return jsonify(posts)
 
@@ -78,7 +78,7 @@ def page_api_posts():
 @app.route('/api/posts/<int:post_id>')
 def page_api_post_by_id(post_id):
     # Страница с одним постом в виде JSON-словаря.
-    logging.info(f"Запрос {url_for('api_post_by_id', post_id=post_id)}")
+    logging.info(f"Запрос {url_for('page_api_post_by_id', post_id=post_id)}")
     post = post_dao.get_post_by_id(post_id)
     return jsonify(post)
 
@@ -115,4 +115,4 @@ def page_delete_bookmarks(post_id):
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True)
