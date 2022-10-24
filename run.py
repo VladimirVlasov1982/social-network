@@ -1,5 +1,5 @@
 import logging
-from flask import Flask, render_template, request, url_for, redirect, jsonify
+from flask import Flask, render_template
 from app.bookmarks.views import bookmarks_blueprint
 from app.posts.views import posts_blueprint
 
