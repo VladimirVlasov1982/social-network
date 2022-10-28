@@ -21,7 +21,7 @@ jobs:
         run: |
           mkdir deploy
           cat docker_compose_ci.yaml | envsubst > deploy/docker-compose.yaml
-      -name: copy files to server
+      - name: copy files to server
         uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.HOST }}
@@ -30,4 +30,3 @@ jobs:
           source: "deploy/docker-compose.yaml"
           target: "flask_app_ci"
           strip_components: 1
-
