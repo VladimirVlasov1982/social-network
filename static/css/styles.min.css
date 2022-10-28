@@ -197,7 +197,7 @@ a {
 
 p {
 	margin: 0;
-	padding: 0
+	padding: 0;
 }
 
 img {
@@ -240,9 +240,8 @@ textarea {
 }
 
 .header__nosvg {
-
     color: #000;
-    font-size: 32px;
+    font-size: 20px;
     text-decoration: none;
     font-weight: bold;
 
@@ -266,16 +265,22 @@ textarea {
 
 .header__bookmark-icon {
 	display: inline-block;
-	vertical-align: middle
+	vertical-align: middle;
 }
 
 .header__bookmark-counter {
 	font-size: 18px;
 	font-weight: bold;
 	color: #000;
-	vertical-align: middle
+	vertical-align: middle;
 }
-
+.header__bookmark-search {
+    position: absolute;
+	right: 320px;
+	top: 34px;
+	text-decoration: none;
+	display: block
+}
 .item {
 	margin-bottom: 22px;
 	padding-bottom: 23px;
