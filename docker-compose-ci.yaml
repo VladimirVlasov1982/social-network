@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  api:
+    image: vladimirvlasov82/skypro_vvlasov_app:$GITHUB_REF_NAME-$GITHUB_RUN_ID
+    ports:
+      - 80:80
+    volumes:
+      - ./ ./code
